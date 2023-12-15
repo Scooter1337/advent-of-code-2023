@@ -5,3 +5,6 @@
 - Day 4: 3.2s (brute force)
 - Day 5: Slow (brute force)
 - Day 6: 14.8ms (brute force)
+- Day 7:
+- Day 8:
+- Day 9: Part 1: 387µs
