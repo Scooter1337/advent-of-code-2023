@@ -1,6 +1,6 @@
 use std::{env, fs::File, io::BufRead};
 
-fn main() {
+pub fn part1() {
     let now = std::time::Instant::now();
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 {
@@ -56,16 +56,4 @@ fn main() {
 pub struct Line {
     pub values: Vec<i64>,
     pub value: i64,
-}
-
-#[macro_export]
-macro_rules! dbg {
-    ($($expr:expr),+) => {
-        {
-            #[cfg(debug_assertions)]
-            {
-                std::dbg!($($expr),+)
-            }
-        }
-    };
 }

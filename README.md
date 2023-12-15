@@ -7,4 +7,4 @@
 - Day 6: 14.8ms (brute force)
 - Day 7:
 - Day 8:
-- Day 9: Part 1: 387µs
+- Day 9: Part 1: 320µs, Part 2: 340µs
